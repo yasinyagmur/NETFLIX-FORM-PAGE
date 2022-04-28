@@ -2,4 +2,4 @@
 
 List of projects within HTML & CSS Plus as follows;
 
-### - [ 01 - Survey Form](./001-survey-form/README.md)
+### - [Netflix Form Project](https://yasinyagmur.github.io/NETFLIX-FORM-PAGE/)
