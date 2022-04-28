@@ -9,21 +9,21 @@
   </head>
   <body>
     <div id="container">
-      <h1 id="title">NET<span id="flix">FLİX</span></h1>
+      <h1 id="title">NET<span id="flix">FLIX</span></h1>
       <p id="description">
         Thank you for signing up at Netflix. Tell us more about yourself
       </p>
 
-      <form action="" id="survey-form">
+      <form action="result.html" id="survey-form">
         <div class="box">
           <label for="name">Name</label>
           <br />
-          <input type="text" class="input" placeholder="Enter your name" />
+          <input type="text" class="input" placeholder="Enter your name" id="name" name="username" />
         </div>
         <div class="box">
           <label for="age">Age</label>
           <br />
-          <input class="input" type="number" placeholder="Age" id="age" />
+          <input class="input" type="number" name="userage" placeholder="Age" id="age" />
         </div>
         <div class="box">
           <label for="mail">Email</label>
@@ -32,41 +32,41 @@
             type="email"
             class="input"
             placeholder="Enter your email"
-            id="mail"
+            id="mail" name="usermail"
           />
         </div>
 
         <div class="box">
           <label id="cT" for="type">Content Type</label>
           <br />
-          <select name="" id="type" class="content">
-            <option value="Series">Series</option>
+          <select name="contentType" id="type" class="content">
+            <option value="Series" selected>Series</option>
             <option value="Films">Films</option>
             <option value="Documentaries">Documentaries</option>
           </select>
         </div>
         <div class="box">
           <h5>Movie Type</h5>
-          <input type="checkbox" name="" id="comedy" />
+          <input type="checkbox" name="movieType" id="comedy" />
           <label class="" for="comedy">Comedy</label>
           <br />
-          <input type="checkbox" name="" id="action" />
+          <input type="checkbox" name="movieType" id="action" />
           <label class="" for="action">Action</label>
           <br />
-          <input type="checkbox" name="" id="romence" />
-          <label class="" for="romence">Romence</label>
+          <input type="checkbox" name="movieType" id="romence" />
+          <label class="" for="romence">Romance</label>
         </div>
         <div class="box">
           <h5>Gender</h5>
-          <input type="radio" name="gender" id="Male" />
-          <label class="" for="Male">Male</label>
+          <input type="radio" name="gender" id="Male" value="male"/>
+          <label class="" for="Male" >Male</label>
           <br />
 
-          <input type="radio" name="gender" id="Female" />
+          <input type="radio" name="gender" id="Female" value="female"/>
           <label class="" for="Female">Female</label>
           <br />
 
-          <input type="radio" name="gender" id="Other" />
+          <input type="radio" name="gender" id="Other" value="other"/>
           <label class="" for="Other">Other</label>
         </div>
         <br />
@@ -74,7 +74,7 @@
           <label class="" for="feedback">Feed Back</label>
           <br />
           <textarea
-            name=""
+            name="textarea"
             id="feedback"
             style="resize: none"
             placeholder="Any comment"

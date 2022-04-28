@@ -55,6 +55,7 @@
   color: white;
   width: 8em;
   height: 3em;
+  cursor: pointer;
 }
 .textarea {
   width: 100%;
@@ -72,3 +73,6 @@
   margin: 8px 0;
   box-sizing: border-box;
 } 
+/* #input-submit{
+  margin: auto;
+} */
