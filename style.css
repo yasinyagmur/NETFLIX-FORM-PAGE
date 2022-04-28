@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ body {
+  background-image: url("background_image.jpg");
+  color: white;
+}
+#container {
+  background-color: rgba(0, 0, 0,0.5);
+  margin: 10px 80px 15px;
+}
+
+#title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 3em;
+}
+
+#flix {
+  color: red;
+}
+#description {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+#survey-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  margin: auto;
+  width: 25%;
+  
+}
+
+.box {
+  margin: 20px;
+}
+.input {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#submit {
+  background-color: red;
+  border-radius: 10px;
+  margin: 0% 38% 10px;
+  color: white;
+  width: 8em;
+  height: 3em;
+}
+.textarea {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 4px 0px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#cT {
+  padding: 3px 0px;
+}
+.content {
+  width: 90%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} 
