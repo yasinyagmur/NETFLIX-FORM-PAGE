@@ -1,5 +1,4 @@
 # HTML & CSS Projects
 
-List of projects within HTML & CSS Plus as follows;
-
 ### - [Netflix Form Project](https://yasinyagmur.github.io/NETFLIX-FORM-PAGE/)
+![](https://github.com/yasinyagmur/NETFLIX-FORM-PAGE/blob/master/img/Project_001_.png)
